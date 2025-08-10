@@ -1,1 +1,1 @@
-** 1
+# Welcome to CangJie Repository
