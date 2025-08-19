@@ -1,0 +1,19 @@
+[package]
+  cjc-version = "1.0.0"
+  name = "test02"
+  description = "nothing here"
+  version = "1.0.0"
+  target-dir = ""
+  src-dir = ""
+  output-type = "executable"
+  compile-option = ""
+  override-compile-option = ""
+  link-option = ""
+  package-configuration = {}
+
+[dependencies]
+    magic = { path = "/Users/shenshen/DevEcoStudioProjects/cangjie_demo/CangjieMagic" }  
+
+[aarch64-apple-darwin]
+    [aarch64-apple-darwin.bin-dependencies]
+      path-option = ["/Users/shenshen/darwin_aarch64_llvm/dynamic/stdx"]
